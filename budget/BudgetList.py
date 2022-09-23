@@ -29,6 +29,8 @@ def main():
         myBudgetList.append(expense.amount)
     
     
-    print('The count of all expenses: ', len(myBudgetList.__len__()))
+    #print('The count of all expenses: ' str(len(myBudgetList.__len__())))
+    print('The count of all expenses: ' + str(len(myBudgetList)))
+    
 if __name__ == "__main__":
         main()
